@@ -11,7 +11,7 @@ Create a DOS batch file called, 'Rgui_Call.bat', with the following contents (Rg
        echo cat("\n\nCreating a plot from", %1, "to", %2, "with", %3, "colored points\n\n")
        echo simplePlot(%1, %2, col = %3) >> .Rprofile
        echo print(%1:%2)
-       echo Sys.sleep(12) >> .Rprofile
+       echo Sys.sleep(7) >> .Rprofile
        echo quit('no',,FALSE) >> .Rprofile
        
        echo C:\\R\\R\\bin\\x64\\Rgui.exe --no-save --no-restore --no-site-file --no-environ > run.bat
@@ -45,7 +45,7 @@ Here is the same batch file contents with some remarks:
        rem The classic R assignment operator "<-" does not work on the echo line.
        echo simplePlot = function(minX, maxX, col) { plot(minX:maxX, col = col) } >> .Rprofile
        echo cat("\n\nCreating a plot from", %1, "to", %2, "with", %3, "colored points\n\n") >> .Rprofile
-       echo Sys.sleep(12) >> .Rprofile
+       echo Sys.sleep(7) >> .Rprofile
        echo quit('no',,FALSE) >> .Rprofile
      
      
