@@ -1,5 +1,5 @@
 
-      @echo off 
+       @echo off 
      
        echo library(stats); library(graphics); library(grDevices); library(utils); library(datasets) > .Rprofile
        echo simplePlot = function(minX, maxX, col) { plot(minX:maxX, col = col) } >> .Rprofile
