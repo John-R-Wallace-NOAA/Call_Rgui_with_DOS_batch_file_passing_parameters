@@ -1,7 +1,7 @@
 ### Call Rgui with a DOS batch file, for batch R graphic capabilities, and optionally pass parameters
 
      
-Create a DOS batch file called, 'Rgui_Call.bat', with the following contents (Rgui_Call.bat is also in this repo folder):
+Create a DOS batch file called, 'Rgui_Call.bat', with the following contents, changing the Rgui path as needed, (Rgui_Call.bat is also in this repo folder):
 
 
       @echo off 
@@ -35,8 +35,8 @@ Here is the same batch file contents with some remarks:
 
        @echo off 
        
-       rem First note that the '>' operator in the Windows command shell, or Unix-a-likes shells, creates a file with the echo(ed) line,
-       rem    and '>>' appends what is echo(ed) to the next line.
+       rem First note that the '>' operator in the Windows command shell, or Unix-a-likes shells, creates a file with the echo(ed),
+       rem    line and '>>' appends what is echo(ed) to the next line.
        
        rem -- Create the local initial file '.Rprofile' which Rgui.exe will run when started --
        rem The listed packages below do not immediately load, but are standard in a normal Rgui startup.
