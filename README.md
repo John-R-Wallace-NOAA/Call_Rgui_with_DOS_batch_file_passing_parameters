@@ -1,7 +1,7 @@
 ### Call Rgui with a DOS batch file and optionally pass parameters
 
      
-Create a DOS batch file called, 'Rgui_Call.bat', with the following contents (Rgui_Call.bat is also in the DOS repo folder):
+Create a DOS batch file called, 'Rgui_Call.bat', with the following contents (Rgui_Call.bat is also in this repo folder):
 
 
       @echo off 
