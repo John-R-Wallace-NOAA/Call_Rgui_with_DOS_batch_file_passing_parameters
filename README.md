@@ -58,4 +58,5 @@ Here is the same batch file contents with some remarks:
        echo C:\\R\\R\\bin\\x64\\Rgui.exe --no-save --no-restore --no-site-file --no-environ > run.bat
        echo exit >> run.bat
        start /wait run.bat
+       rem 'rem'ark out the last line for debugging
        del run.bat      
