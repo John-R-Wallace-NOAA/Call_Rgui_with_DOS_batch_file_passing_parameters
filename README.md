@@ -1,4 +1,4 @@
-### Call Rgui with a DOS batch file and optionally pass parameters
+### Call Rgui with a DOS batch file, for batch R graphic capabilities, and optionally pass parameters
 
      
 Create a DOS batch file called, 'Rgui_Call.bat', with the following contents (Rgui_Call.bat is also in this repo folder):
